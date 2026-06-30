@@ -1,0 +1,88 @@
+canonical_identifier: bkk:krp/KR4e0049/v1
+canonical_location: https://kanripo.org/bkk/KR4e0049/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 南邨詩集
+  date: '2015-08-25 00:17:29.301251'
+  source:
+    repository: kanripo
+    path: KR4e0049
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4e0049_000.yaml, hash: 'sha256:6f33bf1cbdc9c435a1afa43441bde7b5d2e1a95e16ccd5d2ec7b4ed51db3cd2c'}
+  - {seq: 1, filename: KR4e0049_001.yaml, hash: 'sha256:f02523a6814304d036b48b88c0466ba2fe7b8ba5ae2beb237eacbbabd8a1f442'}
+  - {seq: 2, filename: KR4e0049_002.yaml, hash: 'sha256:b3e5d1fdfa6641ea076477d55d7e8a9c542b75b0ad2edc2c5de4c6c3e1d5499b'}
+  - {seq: 3, filename: KR4e0049_003.yaml, hash: 'sha256:757a4957ea58cae0551ddf63a3de43cb8a961a9edba61ac5047347b847e0a00d'}
+  - {seq: 4, filename: KR4e0049_004.yaml, hash: 'sha256:c6152bad2ee2f5776d9571d0edc8c628ea1d887c754334287859cb47ca1ee05b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4e0049_000.markers.yaml, hash: 'sha256:648dd6ae327fc0367a0d6ec35762e745d4c2d62a27566aba846aa4351def905b'}
+  - {seq: 1, role: markers, filename: assets/KR4e0049_001.markers.yaml, hash: 'sha256:c65be14be255782e59aacd593028ec75c661321c6b7ae319ad19db8a84b55d0b'}
+  - {seq: 2, role: markers, filename: assets/KR4e0049_002.markers.yaml, hash: 'sha256:365e7b1971929c4f81a8cb779cf89d205688425832eba52f787671558cbaec56'}
+  - {seq: 3, role: markers, filename: assets/KR4e0049_003.markers.yaml, hash: 'sha256:14f1372bda94e051afd499b0a1e4382c6f8cb33c8a29f7d1f7560acca00a512d'}
+  - {seq: 4, role: markers, filename: assets/KR4e0049_004.markers.yaml, hash: 'sha256:74d9a658e1cf71950bd620bf3691e29bb0997f59cd4653707f445501abbdc983'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4e0049_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 459
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0049_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 5796
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4e0049_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 8932
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4e0049_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 10150
+  label: 卷三
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR4e0049_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 4618
+  label: 卷四
+  type: section
+  level: 1
+hash: sha256:ee335a5194276d9b7d455787236b42b01d8c12b2e40c891579abeb9e900fdb68
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
